@@ -1,0 +1,32 @@
+
+  Boomarks Menu Popup
+
+    This extension provides another popup menu implementation of 
+  Bookmarks Menu extension: https://github.com/hanya/BookmarksMenu
+  This is not provides full function of the Bookmarks Menu extension 
+  but provides only popup menu shown on the main menu of the office.
+    This extension is written in C++, so that can avoid to load 
+  Python runtime at the first time to use the main menu.
+  
+  
+  How to Use
+    This extension does not work without Bookmarks Menu extension, 
+  so install it if you do not have it installed.
+    Install the extension package through the extension manager.
+  This extension conflicts with the Bookmarks Menu extension, so 
+  you need to enable this extension after it. If you install 
+  Bookmarks Menu extension after this extension installed, 
+  disable this extension package and then enable it.
+    Restart your office.
+
+  How to Build
+    Setup OpenOffice SDK.
+    > make
+    Packed extension file is generated in files directory.
+
+
+  Remarks
+    This extension uses Parson[1] licensed under the MIT License. 
+    The files from Parsion are there in parson directory.
+
+  [1]: http://kgabis.github.com/parson/

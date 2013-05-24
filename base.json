@@ -1,0 +1,44 @@
+{"bookmarks":  {
+    "id": 1, 
+    "type": "container", 
+    "name": "Bookmarks", 
+    "description": "", 
+    "parent": null, 
+    "children": 
+      [
+        {
+          "command": "mytools.bookmarks.BookmarksMenu:AddThis", 
+          "description": "", 
+          "id": 2, 
+          "name": "Bookmark ~This Document...", 
+          "parent": 1, 
+          "tags": [], 
+          "type": "item"
+        }, 
+        {
+          "command": "mytools.bookmarks.BookmarksMenu:Edit", 
+          "description": "", 
+          "id": 3, 
+          "name": "~Edit Bookmarks...", 
+          "parent": 1, 
+          "tags": [], 
+          "type": "item"
+        }, 
+        {
+          "id": 4, 
+          "parent": 1, 
+          "type": "separator"
+        }
+      ]
+  }, 
+  "tags": {
+  }, 
+  "unsorted": {
+    "id": -1, 
+    "type": "container", 
+    "name": "Unsorted Bookmarks", 
+    "description": "", 
+    "parent": null, 
+    "children": []
+  }
+}
